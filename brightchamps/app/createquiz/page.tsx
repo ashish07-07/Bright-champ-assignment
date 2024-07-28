@@ -19,7 +19,6 @@ export default function QuizCreator() {
   const session = useSession();
 
   const handleAddQuestion = () => {
-    // Validate inputs
     if (!cquestion.trim()) {
       alert("Please enter a question.");
       return;

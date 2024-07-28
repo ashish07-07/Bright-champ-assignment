@@ -11,7 +11,6 @@ export default function ResultsPage() {
   const score = parseInt(searchParams.get("score") || "", 10);
   const totalQuestions = parseInt(searchParams.get("totalQuestions") || "", 10);
 
-  // Decode and parse the correct answers from the URL
   const correctAnswersString = searchParams.get("correctAnswers");
   const correctAnswers: CorrectAnswers = correctAnswersString
     ? JSON.parse(decodeURIComponent(correctAnswersString))
