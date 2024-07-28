@@ -38,7 +38,7 @@ export default function Seequiz() {
     );
   }
 
-  if (session) {
+  if (session.status === "authenticated") {
     return (
       <div className="min-h-screen bg-gradient-to-r from-purple-500 to-blue-500 flex items-center justify-center p-6">
         <div className="w-full max-w-4xl bg-white shadow-xl rounded-lg p-6">

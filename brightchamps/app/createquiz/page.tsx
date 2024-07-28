@@ -47,7 +47,7 @@ export default function QuizCreator() {
     setCurrentAnswer("");
     alert("question added to database");
   };
-  if (session) {
+  if (session.status === "authenticated") {
     return (
       <div className="max-w-2xl mx-auto p-6 bg-gradient-to-r from-purple-500 to-blue-500 shadow-xl rounded-lg text-white">
         <h2 className="text-3xl font-bold mb-6 text-center">Create a Quiz</h2>
