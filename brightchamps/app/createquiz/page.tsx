@@ -109,6 +109,6 @@ export default function QuizCreator() {
       </div>
     );
   } else {
-    signIn();
+    signIn(undefined, { callbackUrl: "/" });
   }
 }

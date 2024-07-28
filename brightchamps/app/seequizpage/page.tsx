@@ -66,6 +66,7 @@ export default function Seequiz() {
       </div>
     );
   } else {
-    signIn();
+    // signIn();
+    signIn(undefined, { callbackUrl: "/" });
   }
 }
