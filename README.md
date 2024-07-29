@@ -51,8 +51,6 @@ Ensure you have the following installed on your machine:
 
    ```
 
-   =======
-
 ## Quiz App with Next.js, Tailwind CSS, and Axios
 
 **Installation:**
@@ -73,10 +71,8 @@ NEXT_PUBLIC_OPENAI_KEY=your-openai-key
 1. Open your terminal in the project directory.
 2. Run `npm install` (or `yarn install`) to install dependencies.
 
-=======
-
-1. Open your terminal in the project directory.
-2. Run `npm install` (or `yarn install`) to install dependencies.
+3. Open your terminal in the project directory.
+4. Run `npm install` (or `yarn install`) to install dependencies.
 
 **Development Server:**
 
