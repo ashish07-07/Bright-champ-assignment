@@ -107,7 +107,7 @@ The application will be available at http://localhost:3000.
 - `Page.tsx`: Home page.
 - `create-quiz.tsx`: Page for creating a quiz.
 - `Seequiz.tsx`: Page for taking a quiz.
-- # `results.tsx`: Page for viewing quiz results.
+- `results.tsx`: Page for viewing quiz results.
 
 * **Create Quiz:** Define quiz details and questions.
 * **Take Quiz:** Answer questions within a timer limit.
