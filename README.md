@@ -26,10 +26,10 @@ This project is a Quiz Application built with Next.js, React, and TypeScript. It
 - Next.js
 - React
 - TypeScript
-- Tailwind CSS for styling
-- Axios for API requests
 - postgreSQL
 - Prisma
+- Tailwind CSS for styling
+- Axios for API requests
 
 ## Getting Started
 
@@ -66,7 +66,6 @@ NEXTAUTH_URL=http://localhost:3000
 NEXTAUTH_SECRET=your-nextauth-secret
 GOOGLE_ID=your-google-id
 GOOGLE_SECRET=your-google-secret
-NEXT_PUBLIC_OPENAI_KEY=your-openai-key
 
 1. Open your terminal in the project directory.
 2. Run `npm install` (or `yarn install`) to install dependencies.
@@ -93,44 +92,20 @@ The application will be available at http://localhost:3000.
 
 **API Routes:**
 
+- `POST /api/Createquiz`: Create quiz and store in postgreSQL Database.
 - `POST /api/Seeparticularquiz`: Retrieve quiz details by ID.
 - `POST /api/submitQuiz`: Submit answers and receive score & correct answers.
 
-**Components:**
+**Additional features:**
 
-- `CreateQuiz`: Form for creating a new quiz.
-- `TakeQuiz`: Interface for taking a quiz.
 - `Timer`: Manages the quiz countdown.
 
 **Pages:**
 
 - `Page.tsx`: Home page.
-- `create-quiz.tsx`: Page for creating a quiz.
-- `Seequiz.tsx`: Page for taking a quiz.
-- `results.tsx`: Page for viewing quiz results.
-
-* **Create Quiz:** Define quiz details and questions.
-* **Take Quiz:** Answer questions within a timer limit.
-* **Timer:** Tracks remaining time during the quiz.
-* **Results:** View your score and correct answers after submission.
-
-**API Routes:**
-
-- `POST /api/Seeparticularquiz`: Retrieve quiz details by ID.
-- `POST /api/submitQuiz`: Submit answers and receive score & correct answers.
-
-**Components:**
-
-- `CreateQuiz`: Form for creating a new quiz.
-- `TakeQuiz`: Interface for taking a quiz.
-- `Timer`: Manages the quiz countdown.
-
-**Pages:**
-
-- `Page.tsx`: Home page.
-- `create-quiz.tsx`: Page for creating a quiz.
-- `Seequiz.tsx`: Page for taking a quiz.
-- `results.tsx`: Page for viewing quiz results.
+- `Creatquiz`: Page for creating a quiz.
+- `Seequiz`: Page for taking a quiz.
+- `results`: Page for viewing quiz results.
 
 **Styling:**
 
