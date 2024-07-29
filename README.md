@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # Quiz Application
 
 ![Home page](./brightchamps/public/image1.png)
@@ -8,9 +6,11 @@
 
 # Quiz Application
 
-![Creatquiz](./Bright-champ-assignment/brightchamps/public/image2.png)
+![Seequiz](./brightchamps/public/image3.png)
 
-> > > > > > > efcd930dee37d6114e117b00cb2d39c83d71d1b3
+![playquiz](./brightchamps/public/image4.png)
+
+![Result](./brightchamps/public/image5.png)
 
 This project is a Quiz Application built with Next.js, React, and TypeScript. It allows users to create quizzes, take quizzes with a countdown timer, and view their results.
 
@@ -53,8 +53,6 @@ Ensure you have the following installed on your machine:
 
    =======
 
-   > > > > > > > efcd930dee37d6114e117b00cb2d39c83d71d1b3
-
 ## Quiz App with Next.js, Tailwind CSS, and Axios
 
 **Installation:**
@@ -82,9 +80,6 @@ NEXT_PUBLIC_OPENAI_KEY=your-openai-key
 1. Open your terminal in the project directory.
 2. Run `npm install` (or `yarn install`) to install dependencies.
 
-> > > > > > > efcd930dee37d6114e117b00cb2d39c83d71d1b3
-> > > > > > > Development Server:
-
 **Development Server:**
 
 Start the development server with:
@@ -96,8 +91,6 @@ Start the development server with:
 The application will be available at http://localhost:3000.
 
 **Features:**
-
-<<<<<<< HEAD
 
 - **Create Quiz:** Define quiz details and questions.
 - **Take Quiz:** Answer questions within a timer limit.
