@@ -1,21 +1,16 @@
 <<<<<<< HEAD
+
 # Quiz Application
 
 ![Home page](./brightchamps/public/image1.png)
 
-![Addquiz](./brightchamps/public/image2.png)
-=======
+# ![Addquiz](./brightchamps/public/image2.png)
 
 # Quiz Application
 
-
 ![Creatquiz](./Bright-champ-assignment/brightchamps/public/image2.png)
 
-
-
-
-
->>>>>>> efcd930dee37d6114e117b00cb2d39c83d71d1b3
+> > > > > > > efcd930dee37d6114e117b00cb2d39c83d71d1b3
 
 This project is a Quiz Application built with Next.js, React, and TypeScript. It allows users to create quizzes, take quizzes with a countdown timer, and view their results.
 
@@ -53,10 +48,12 @@ Ensure you have the following installed on your machine:
    ```sh
    git clone https://github.com/yourusername/quiz-app.git
    cd quiz-app
-<<<<<<< HEAD
+
    ```
-=======
->>>>>>> efcd930dee37d6114e117b00cb2d39c83d71d1b3
+
+   =======
+
+   > > > > > > > efcd930dee37d6114e117b00cb2d39c83d71d1b3
 
 ## Quiz App with Next.js, Tailwind CSS, and Axios
 
@@ -76,36 +73,32 @@ GOOGLE_SECRET=your-google-secret
 NEXT_PUBLIC_OPENAI_KEY=your-openai-key
 
 <<<<<<< HEAD
+
 1. Open your terminal in the project directory.
 2. Run `npm install` (or `yarn install`) to install dependencies.
 
 =======
 
-
-
-
 1. Open your terminal in the project directory.
 2. Run `npm install` (or `yarn install`) to install dependencies.
 
-
->>>>>>> efcd930dee37d6114e117b00cb2d39c83d71d1b3
-Development Server:
+> > > > > > > efcd930dee37d6114e117b00cb2d39c83d71d1b3
+> > > > > > > Development Server:
 
 **Development Server:**
 
 Start the development server with:
 
-<<<<<<< HEAD
-- `npm run dev` (or `yarn dev`)
-=======
+- # `npm run dev` (or `yarn dev`)
+
 * `npm run dev` (or `yarn dev`)
->>>>>>> efcd930dee37d6114e117b00cb2d39c83d71d1b3
 
 The application will be available at http://localhost:3000.
 
 **Features:**
 
 <<<<<<< HEAD
+
 - **Create Quiz:** Define quiz details and questions.
 - **Take Quiz:** Answer questions within a timer limit.
 - **Timer:** Tracks remaining time during the quiz.
@@ -127,8 +120,8 @@ The application will be available at http://localhost:3000.
 - `Page.tsx`: Home page.
 - `create-quiz.tsx`: Page for creating a quiz.
 - `Seequiz.tsx`: Page for taking a quiz.
-- `results.tsx`: Page for viewing quiz results.
-=======
+- # `results.tsx`: Page for viewing quiz results.
+
 * **Create Quiz:** Define quiz details and questions.
 * **Take Quiz:** Answer questions within a timer limit.
 * **Timer:** Tracks remaining time during the quiz.
@@ -136,22 +129,21 @@ The application will be available at http://localhost:3000.
 
 **API Routes:**
 
-* `POST /api/Seeparticularquiz`: Retrieve quiz details by ID.
-* `POST /api/submitQuiz`: Submit answers and receive score & correct answers.
+- `POST /api/Seeparticularquiz`: Retrieve quiz details by ID.
+- `POST /api/submitQuiz`: Submit answers and receive score & correct answers.
 
 **Components:**
 
-* `CreateQuiz`: Form for creating a new quiz.
-* `TakeQuiz`: Interface for taking a quiz.
-* `Timer`: Manages the quiz countdown.
+- `CreateQuiz`: Form for creating a new quiz.
+- `TakeQuiz`: Interface for taking a quiz.
+- `Timer`: Manages the quiz countdown.
 
 **Pages:**
 
-* `Page.tsx`: Home page.
-* `create-quiz.tsx`: Page for creating a quiz.
-* `Seequiz.tsx`: Page for taking a quiz.
-* `results.tsx`: Page for viewing quiz results.
->>>>>>> efcd930dee37d6114e117b00cb2d39c83d71d1b3
+- `Page.tsx`: Home page.
+- `create-quiz.tsx`: Page for creating a quiz.
+- `Seequiz.tsx`: Page for taking a quiz.
+- `results.tsx`: Page for viewing quiz results.
 
 **Styling:**
 
@@ -165,7 +157,6 @@ Tailwind CSS is used for styling the components.
 4. Push your branch to the remote repository.
 5. Submit a pull request for review and merging.
 
-<<<<<<< HEAD
 **Acknowledgements:**
 
 - Next.js
@@ -176,19 +167,11 @@ Tailwind CSS is used for styling the components.
 **Additional Notes:**
 
 - Replace `your-nextauth-secret`, `your-google-id`, `your-google-secret`, and `your-openai-key` with your actual values.
-- The `NEXT_PUBLIC_OPENAI_KEY` is optional and might be used for additional features not covered in this overview.
-=======
-
+- # The `NEXT_PUBLIC_OPENAI_KEY` is optional and might be used for additional features not covered in this overview.
 
 **Acknowledgements:**
 
-* Next.js
-* Tailwind CSS
-* Axios
-* TypeScript
-
-**Additional Notes:**
-
-* Replace `your-nextauth-secret`, `your-google-id`, `your-google-secret`, and `your-openai-key` with your actual values.
-* The `NEXT_PUBLIC_OPENAI_KEY` is optional and might be used for additional features not covered in this overview.
->>>>>>> efcd930dee37d6114e117b00cb2d39c83d71d1b3
+- Next.js
+- Tailwind CSS
+- Axios
+- TypeScript
