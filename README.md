@@ -5,6 +5,10 @@
 
 ![Creatquiz](./brightchamps/public/image2.png)
 
+![Issue creation](./brightchamps/public/image1.png)
+
+![Issue Tracker](./test-model/public/image2.png)
+
 
 This project is a Quiz Application built with Next.js, React, and TypeScript. It allows users to create quizzes, take quizzes with a countdown timer, and view their results.
 
