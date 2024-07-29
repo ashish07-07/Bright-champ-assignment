@@ -2,9 +2,9 @@
 # Quiz Application
 
 
-![Creatquiz](./brightchamps/public/image2.png)
+![Creatquiz](./Bright-champ-assignment/brightchamps/public/image2.png)
 
-![Issue creation](./brightchamps/public/image1.png)
+
 
 
 
