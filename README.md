@@ -2,9 +2,9 @@
 
 ![Home page](./brightchamps/public/image1.png)
 
-# ![Addquiz](./brightchamps/public/image2.png)
+![Result](./brightchamps/public/image7.png)
 
-# Quiz Application
+# ![Addquiz](./brightchamps/public/image2.png)
 
 ![Seequiz](./brightchamps/public/image3.png)
 
