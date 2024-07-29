@@ -70,8 +70,6 @@ GOOGLE_ID=your-google-id
 GOOGLE_SECRET=your-google-secret
 NEXT_PUBLIC_OPENAI_KEY=your-openai-key
 
-<<<<<<< HEAD
-
 1. Open your terminal in the project directory.
 2. Run `npm install` (or `yarn install`) to install dependencies.
 
