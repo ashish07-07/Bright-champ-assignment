@@ -21,7 +21,7 @@ export default function TakeQuiz() {
   const id = parseInt(res.get("id") || "", 10);
   const [quiz, setQuiz] = useState<Quiz | null>(null);
   const [loading, setLoading] = useState(true);
-  const [timeLeft, setTimeLeft] = useState(300);
+  const [timeLeft, setTimeLeft] = useState(30);
   const [answers, setAnswers] = useState<{ [key: number]: string }>({});
 
   useEffect(() => {
